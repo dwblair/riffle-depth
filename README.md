@@ -1,3 +1,3 @@
 # riffle-depth
 
-<img src="schem.png">
+<img src="pics/schem.png">
