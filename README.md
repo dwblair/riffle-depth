@@ -4,7 +4,9 @@
 
 There are various approaches [1] to depth measurement -- float switches, arrays of open wires, optical and sonar distance sensors, etc.  One simple approach is to leverage the dielectric properties of water by making a capacitive measurement.  
 
-The simple picture is: the time taken to charge and discharge a capacitor when applying a given voltage is proportional to its capacitance, and its capacitance is proportional to the dielectric constant of the material around it.  So, setting up a circuit that allows a capacitor to charge and discharge to a fixed voltage V, and measuring the time taken for this charge/discharge cycle to occur (or, equivalently, the frequency of this charge/discharge process), can be considered a measure of the amount of local dielectric.  In the case of a capacitor submerged in liquid, this dielectric value will grow in linear proportion to the amount of the capacitor submerged in the liquid; and thus the frequency will be directly related to the liquid level:
+The simple picture is: the time taken to charge and discharge a capacitor to a voltage V when applying a given voltage V_app is inversely proportional to its capacitance; and its capacitance is directly proportional to the dielectric constant of the material around it.  So, as the dielectric constant around a capacitor increases, the time it takes to charge / discharge the capacitor to V, using V_app, will increase.  
+
+So, setting up a circuit that allows a capacitor to charge and discharge to a fixed voltage V, and measuring the time taken for this charge/discharge cycle to occur (or, equivalently, the frequency of this charge/discharge process), can be considered a measure of the amount of local dielectric.  In the case of a capacitor submerged in liquid, this dielectric value will grow in linear proportion to the amount of the capacitor submerged in the liquid; and thus the frequency will be inversely related to the liquid level:
 
 <img src="pics/digikey_capacitive_sensing.png">
 
