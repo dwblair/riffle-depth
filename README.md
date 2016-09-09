@@ -6,7 +6,7 @@ There are various approaches [1] to depth measurement -- float switches, arrays 
 
 The simple picture is: the time taken to charge and discharge a capacitor when applying a given voltage is proportional to its capacitance, and its capacitance is proportional to the dielectric constant of the material around it.  So, setting up a circuit that allows a capacitor to charge and discharge to a fixed voltage V, and measuring the time taken for this charge/discharge cycle to occur (or, equivalently, the frequency of this charge/discharge process), can be considered a measure of the amount of local dielectric.  In the case of a capacitor submerged in liquid, this dielectric value will grow in linear proportion to the amount of the capacitor submerged in the liquid; and thus the frequency will be directly related to the liquid level:
 
-<img src="digikey_capacitive_sensing.png">
+<img src="pics/digikey_capacitive_sensing.png">
 
 _Source: http://www.digikey.com/en/articles/techzone/2011/sep/liquid-level-sensing-is-key-technology-for-todays-systems---part-1_
 
