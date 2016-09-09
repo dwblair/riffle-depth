@@ -36,15 +36,15 @@ The code in this repo, 'riffle_depth.ino', when used with the protoboard schemat
 
 ## Calibration Methods
 
-In order to calibrate the capacitive depth sensor, measurements of the oscillator period must be made when the wires are submerged at known depths.  The easiest way to do this is by lining up the wires with a measuring tape inside a container, and recording the output of the sensor as more water is poured into the container.
+In order to calibrate the capacitive depth sensor, measurements of the oscillator period must be made when the wires are submerged at known depths.  The easiest way to do this is by lining up the wires with a measuring tape inside a container, and recording the output of the sensor as more water is poured into the container. This method is described in detail in video accompanying the Public Lab research note here: https://publiclab.org/notes/eustatic/05-21-2016/riffing-on-the-riffle-for-a-depth-sensor-update-from-2014
 
 <img src="pics/tape_measure.png">
 
-This experiment was performed, and a rough relationship was established between the period, in seconds of the oscillator output (recorded on SD card) and the height, in centimeters, of the liquid level.  This relationship was then used to generate the following graph:
+Using this method, a rough relationship was established between the period, in seconds of the oscillator output (recorded on SD card) and the height, in centimeters, of the liquid level.  This relationship was then used to generate the following graph:
 
 <img src="pics/depth_test.png">
 
-This method is described in detail in video accompanying the PUblic Lab research note here: https://publiclab.org/notes/eustatic/05-21-2016/riffing-on-the-riffle-for-a-depth-sensor-update-from-2014
+Giving the sensor more time to equilibrate and averaging readings over longer measurement periods may improve the precision of the measurement.
 
 ## Compensating for sources of error
 
