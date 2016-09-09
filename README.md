@@ -4,7 +4,9 @@
 
 There are various approaches [1] to depth measurement -- float switches, arrays of open wires, optical and sonar distance sensors, etc.  One simple approach is to leverage the dielectric properties of water by making a capacitive measurement.  
 
-The simple picture is: a capacitor's ability to store electrical energy is enhanced when it is placed in a material with a larger dielectric constant.  Water has a larger dielectric constant than air;  so capacitors placed in water can store more energy than they can when in air.  For a capacitor formed by a long pair of wires, partially submerged in liquid, the measured capacitance of the wires will increase in proportion to the length of the wires submerged in the liquid.  So, measuring the capacitance of these wires would allow us to determine the height of the liquid.
+The basic picture is: a capacitor's ability to store electrical energy is enhanced when it is placed in a material with a larger dielectric constant.  Water has a larger dielectric constant than air;  so capacitors placed in water can store more energy than they can when in air.  For a capacitor formed by a long pair of wires, partially submerged in liquid, the measured capacitance of the wires will increase in proportion to the length of the wires submerged in the liquid.  So, measuring the capacitance of these wires would allow us to determine the height of the liquid.
+
+## Circuit
 
 A simple way to measure capacitance is to rely on the fact that the amount of time it takes to charge and discharge a capacitor, when applying a fixed voltage, will increase as the capacitance increases.  A chip like the [555 timer](REF) performs exactly this function:  it will charge a capacitor to a threshold voltage, then discharge it, then repeat the cycle, outputting a pulse every time the capacitor charges to a threshold value.  If we hook up a long pair of wires as a capacitor to a 555, and measure the length of time between pulses, we then have a simple liquid level sensor:
 
@@ -12,9 +14,15 @@ A simple way to measure capacitance is to rely on the fact that the amount of ti
 
 _Source: http://www.digikey.com/en/articles/techzone/2011/sep/liquid-level-sensing-is-key-technology-for-todays-systems---part-1_
 
-## Circuit
-
 ## Bill of Materials
+
+- a [555 timer]
+- a 1 K Ohm resistor
+- long wires
+
+<img src="pics/p1.jpg">
+<img src="pics/p2.jpg">
+<img src="pics/p3.jpg">
 
 ## Schematic 
 
