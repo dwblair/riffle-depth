@@ -18,11 +18,9 @@ _Source: http://www.digikey.com/en/articles/techzone/2011/sep/liquid-level-sensi
 
 - a [555 timer]
 - a 1 K Ohm resistor
-- long wires
+- a pair of twisted wires, not electrically connected, and sealed (with e.g. hot glue) at one end:
 
-<img src="pics/p1.jpg">
-<img src="pics/p2.jpg">
-<img src="pics/p3.jpg">
+<img src="pics/p3.jpg" width=200>
 
 ## Schematic 
 
