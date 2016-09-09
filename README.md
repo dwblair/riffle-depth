@@ -58,7 +58,6 @@ A nice review of sources of error for capacitive depth sensors is outlined in Re
 and nicely summarize the relative magnitude of these errors here:
 
 <img src="pics/error.png">
-
 _Source: Ref [4] below_
 
 One simple idea for mitigating these error sources is to use _two_ capacitive sensors, with one raised a known distance above the other.  If both sensors are in the same environment and are subject to approximately the same local fluctuations in temperature, conductivity, and biofilm, then the the difference in capacitance between the two wires might be relatively constant, allowing for most sources of error be divided out.  The 555 timer comes in dual-package variants, and two 328p Riffle hardware interrupts could be used to measure these two sensors.
