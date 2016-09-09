@@ -32,45 +32,21 @@ _Source: http://www.digikey.com/en/articles/techzone/2011/sep/liquid-level-sensi
 
 ## Calibration Methods
 
+<img src="pics/depth_test.png">
+
 ## Research Notes on Public Lab
+
+- First capacitive sensor prototype at 2014 NOLA barnraising: Original workshop: https://publiclab.org/notes/laurenrae/11-24-2014/don-explains-the-theory-behind-the-depth-sensor-for-the-riffle
+- Scott Eustis research note https://publiclab.org/notes/eustatic/05-21-2016/riffing-on-the-riffle-for-a-depth-sensor-update-from-2014
+- Depth sensor workshop in NOLA: https://publiclab.org/notes/stevie/06-06-2016/reflecting-on-the-depth-sensor-build and https://publiclab.org/wiki/depth-flood-sensing-in-new-orleans
+- Dan Beavers alternative depth sensor proposal: https://publiclab.org/notes/danbeavers/05-18-2016/depth-sensor-proposal
 
 ## References
 
 1. Digikey's guide to depth measurement techniques: http://www.digikey.com/en/articles/techzone/2011/sep/liquid-level-sensing-is-key-technology-for-todays-systems---part-1
 2. Using light sensors and a ping pong ball: http://howmuchsnow.com/waterlevel/
 e
-
-------
-
-
-Links to research on capacitive sensors -- thread with dan beavers
-Link to Scott Eustis research note https://publiclab.org/notes/eustatic/05-21-2016/riffing-on-the-riffle-for-a-depth-sensor-update-from-2014
-Evaluation material
-Ways of calibrating
-Dan Beaver’s alternative proposal: https://publiclab.org/notes/danbeavers/05-18-2016/depth-sensor-proposal
-Depth sensor workshop in NOLA
-https://publiclab.org/notes/stevie/06-06-2016/reflecting-on-the-depth-sensor-build
-https://publiclab.org/wiki/depth-flood-sensing-in-new-orleans
-https://publiclab.org/notes/stevie/05-04-2016/depth-sensor-build
-Original workshop: https://publiclab.org/notes/laurenrae/11-24-2014/don-explains-the-theory-behind-the-depth-sensor-for-the-riffle
-Nice explanation of principle: http://njhurst.com/electronics/watersensor/
+3. Vegetronix capacitve liquid level sensor: http://njhurst.com/electronics/watersensor/
 Vegetronix: https://www.vegetronix.com/Products/AquaPlumb/
-REALLY good review of issues w/ capacitive depth sensor: http://www.umbc.edu/cuere/BaltimoreWTB/pdf/TM_2009_003.pdf
-** grab page 21 bottom figure **
-Issues w/ capacitive depth sensors: http://www.lionprecision.com/tech-library/technotes/cap-0020-sensor-theory.html
-Various approaches to measuring depth: 
-Github repo
-Schematic
-Protoboard layout
-Code
-Basic concept
-Markdown doc → research note
-History & Motivation
-Road Salt
-Flooding
-Drought
-Basic approaches
-http://www.digikey.com/en/articles/techzone/2011/sep/liquid-level-sensing-is-key-technology-for-todays-systems---part-1
-Optical, with ping pong ball: 
-555 approach & history
+4. Review of calibration issues with capacitive depth sensors: http://www.umbc.edu/cuere/BaltimoreWTB/pdf/TM_2009_003.pdf
 
